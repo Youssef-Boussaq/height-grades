@@ -1,0 +1,19 @@
+t=[]
+nbr=0
+s=0
+# notes of students
+for i in range(0,10):
+    a=float(input(f'input the notes of students {i+1}:  '))
+    t.append(a)
+   #add all element of the list
+    s=s+t[i]
+m=s/10
+print(m)
+for i in range(0,10):
+    if t[i]>m:
+        nbr+=1
+print('the number of grades above average is', nbr)
+
+
+   
+    
